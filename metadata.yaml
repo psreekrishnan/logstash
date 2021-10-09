@@ -1,0 +1,21 @@
+name: logstash
+summary: Logstash helps you process logs and other event data.
+maintainer: Sreekrishnan P <sreekrishnan.p@bt.com>
+description: |
+  Logstash is a free and open server-side data processing pipeline that ingests data
+  from a multitude of sources, transforms it, and then sends it to your favorite `stash`.
+tags:
+  - logging
+  - data-processing
+subordinate: false
+series:
+  - bionic
+  - focal
+provides:
+  client:
+    interface: logstash-client
+  beat:
+    interface: elastic-beats
+requires:
+  elasticsearch:
+    interface: elasticsearch

@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import amulet
+import requests
+import unittest
+
+
+class TestCharm(unittest.TestCase):
+    def setUp(self):
+        pass
+
+    def test_service(self):
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main()

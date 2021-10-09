@@ -1,0 +1,11 @@
+---
+includes:
+  - "layer:basic"
+  - "interface:elasticsearch"
+  - "interface:logstash-client"
+  - "interface:elastic-beats"
+options:
+  basic:
+    use_venv: true
+is: logstash
+repo: https://github.com/psreekrishnan/logstash
